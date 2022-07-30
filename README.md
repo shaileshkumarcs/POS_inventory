@@ -1,8 +1,9 @@
 # POS_INVOICE And A4
 
-I used here PHP 7.2
-[fpdf184] Library you can get it from here
-[fpdf] official for latest version of library
+I used here PHP 7.2,
+
+Library you can get it from here [fpdf184] ,
+official for latest version of library [fpdf] 
 
 ```
 $pdf = new FPDF('P','mm',array(80, 200)); // for POS mean 3" (Inch) portrait
