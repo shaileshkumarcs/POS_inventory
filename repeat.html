@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>repeat count</title>
+</head>
+<body>
+
+</body>
+<script type="text/javascript">
+
+var name = "SHAIELSH";
+var newarr = [];
+for(var i = 0; i< 4; i++){
+	var q = 0;
+	for(var j = i; j< name.length-1; j++){
+		console.log(name.charAt(i), name.charAt(j));
+		if(name.charAt(i) == name.charAt(j)){
+			q += 1;
+		}
+		newarr[name.charAt(i)] = q;
+	}
+}
+
+console.log(newarr);
+// alert(newarr);
+
+
+
+
+</script>
+</html>
